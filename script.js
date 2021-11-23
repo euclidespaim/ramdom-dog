@@ -6,4 +6,4 @@ document.querySelector('button').addEventListener('click', function () {
         .then((myContent) => {
             myImage.src = myContent['message'];
         });
-}, false);
+}, false)
